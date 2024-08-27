@@ -44,3 +44,29 @@ header {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.hero {
+    height: 300px;
+    background-color: #1F2937;
+}
+
+.information {
+    height: 400px;
+    background-color: #fff;
+}
+
+.quote {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.action {
+    height: 400px;
+    background-color: #fff;
+}
+
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #1F2937;
+}
