@@ -53,24 +53,26 @@ header {
 }
 
 .information {
-  height: 400px;
+  height: 450px;  /*adjust at the end */
   background-color: #fff;
 }
 
 .quote {
-  height: 400px;
+  height: 450px;
   background-color: #e5e7eb;
 }
 
 .action {
-  height: 400px;
+  height: 450px;
   background-color: #fff;
 }
 
 footer {
-  height: 100px;
-  padding: 10px;
+  height: 70px;
   background-color: #1f2937;
+  color:#e5e7eb;
+  text-align: center;
+  padding: 20px;
 }
 
 .hero-container {
@@ -118,5 +120,118 @@ footer {
 img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  width: 900px;
+}
+
+.img-container {
+  width: 900px;
+  height: 160px;  /*adjust later according to img box*/
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-box{
+  height: 150px;
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 18px;
+}
+
+.img-textbox-container {
+  width: 900px;
+  height: 140px;  /*adjust later according to img box*/
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding-bottom: 50px;
+}
+
+.textbox {
+  height: 140px;
+  width: 150px;
+  /* border: 1px solid black; */
+  font-size: 18px;
+  color: #1F2937;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 900px;
+}
+
+.cited-text {
+  font-style: italic;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.cited-person {
+  font-weight: bold;
+  text-align: right;
+  font-size: 28px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  width: 900px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 5px;
+}
+
+.action-main-text {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 5px;;
+}
+
+.action-secondary-text {
+  font-size: 18px;
+}
+
+.action-button {
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  border-radius: 5px;
+  background-color: #3882f6;
+  padding: 10px 25px;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #f9faf8;
+  display: inline-block;
 }
